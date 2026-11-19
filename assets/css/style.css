@@ -71,9 +71,7 @@ em { font-style: italic; color: var(--rose-escuro); }
 .topbar { position: sticky; top: 0; z-index: 50; background: rgba(255, 249, 245, .94); border-bottom: 1px solid var(--borda); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); transition: box-shadow .3s ease; }
 .topbar.is-scrolled { box-shadow: 0 6px 24px rgba(61, 48, 52, .06); }
 .nav { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 72px; }
-.brand { display: flex; align-items: center; gap: 12px; line-height: 1; text-decoration: none; color: var(--texto); }
-.brand__logo { width: 52px; height: 52px; border-radius: 50%; box-shadow: 0 0 0 1px var(--borda); }
-.brand__text { display: flex; flex-direction: column; }
+.brand { display: flex; flex-direction: column; line-height: 1; text-decoration: none; color: var(--texto); }
 .brand__name { font-family: var(--serif); font-size: 26px; font-weight: 500; letter-spacing: .02em; }
 .brand__sub { font-size: 10px; letter-spacing: .32em; text-transform: uppercase; color: var(--dourado-texto); margin-top: 5px; }
 .nav__links { display: flex; align-items: center; gap: 28px; }
@@ -190,8 +188,7 @@ em { font-style: italic; color: var(--rose-escuro); }
 /* Rodapé */
 .footer { background: var(--texto); color: var(--nude); }
 .footer__row { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 24px; padding-block: 48px 104px; }
-.footer__brand { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; }
-.footer__logo { width: 96px; height: 96px; border-radius: 50%; margin-bottom: 10px; }
+.footer__brand { display: flex; flex-direction: column; gap: 6px; }
 .footer__name { font-family: var(--serif); font-size: 28px; color: var(--marfim); }
 .footer__sub { font-size: 12px; letter-spacing: .24em; text-transform: uppercase; color: var(--rose); }
 .footer__links { display: flex; flex-wrap: wrap; gap: 8px 28px; font-size: 13px; }

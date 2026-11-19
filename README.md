@@ -9,8 +9,8 @@ Método Lisos Sofisticados · Alisamentos · Tratamentos · Cortes · Mechas · 
 index.html            página única com todas as seções
 assets/css/style.css  estilos (cores e fontes nas variáveis do topo)
 assets/js/main.js     menu mobile, cabeçalho e animações de entrada
-assets/img/           fotos reais da Carmen e logos (.jpg + .webp), imagem de compartilhamento
-favicon.png, apple-touch-icon.png   ícones gerados da logo rosé
+assets/img/           fotos reais da Carmen (.jpg + .webp) e imagem de compartilhamento
+favicon.svg
 robots.txt, sitemap.xml
 _headers              cabeçalhos de cache/segurança do Cloudflare Pages
 ```
